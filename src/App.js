@@ -14,7 +14,7 @@ React.useEffect(() => {
   })
     .then(response => response.json())
     .then((result) =>
-    fetch(`https://api.petfinder.com/v2/animals?type=dog&page=2`,
+    fetch(`https://api.petfinder.com/v2/animals?type=dog&page=1`,
       // `/api/animals?type=cat&page=1`
       {
         headers: {
