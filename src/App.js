@@ -57,7 +57,7 @@ React.useEffect(() => {
           <td>{pet.description}</td>
           <td>
             {pet.photos.map((photo) => (
-              <img key={photo.small} src={photo.medium} alt={pet.name} />
+              <img key={photo.small} src={photo.medium} alt={pet.name} style={{width: '100px', height: '100px'}}/>
             ))}
           </td>
         </tr>
